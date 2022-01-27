@@ -1,0 +1,39 @@
+Script started on 2022-01-27 11:28:57-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;hs59@remotel3: ~/cs214/proj/01[01;32mhs59@remotel3[00m:[01;34m~/cs214/proj/01[00m$ cd s clojure/src/
+]0;hs59@remotel3: ~/cs214/proj/01/clojure/src[01;32mhs59@remotel3[00m:[01;34m~/cs214/proj/01/clojure/src[00m$ cat rectangle_area.clj 
+;;;; Begun by: Prof. Adams, for CS 214 at Calvin College.
+;;;; Student name : Hyun Sim
+;;;; Completed by: 19 Jan, 2022
+;;;; Date: 19 Jan, 2022
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(ns rectangle_area) 
+
+(defn rectangleArea [itsWidth itsHeight]
+  (* itsWidth itsHeight)  
+)
+
+(defn -main [] 
+   
+    (def height)
+    (def width)
+    (println "\nTo compute the area of a rectangle,")
+    (print " enter its height: ") (flush)
+    (let [height (read)] 
+            
+        (print "\n enter its width: " ) (flush)
+
+        (let [width (read)]
+
+        (print "\nThe area is ")
+        (print (rectangleArea height width))
+        (print "\n\n")
+
+        )
+    )
+    
+)]0;hs59@remotel3: ~/cs214/proj/01/clojure/src[01;32mhs59@remotel3[00m:[01;34m~/cs214/proj/01/clojure/src[00m$ clojure -cp . rectangle_area.clj 
+]0;hs59@remotel3: ~/cs214/proj/01/clojure/src[01;32mhs59@remotel3[00m:[01;34m~/cs214/proj/01/clojure/src[00m$ clojure rectangle_area.clj 
+]0;hs59@remotel3: ~/cs214/proj/01/clojure/src[01;32mhs59@remotel3[00m:[01;34m~/cs214/proj/01/clojure/src[00m$ exit
+
+Script done on 2022-01-27 11:31:42-05:00 [COMMAND_EXIT_CODE="0"]
