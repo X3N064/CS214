@@ -1,0 +1,74 @@
+1.
+<escape_character> ::= a | b | f | n | r | t | v | \ | ' | " | On | xHn | uHn | 0
+<input> ::= <letter> | _ | <digit> | \<escape_character> | $ | % | Ø 
+<input_for_id> ::= <letter> | _ | <digit> | Ø
+<sign> ::= + | - | 0 
+<modifier> ::= private | public
+
+<reculs_str> ::= <input> <reculs_str> | Ø 
+<reculs_int> ::= <digit> <reculs_int> | Ø 
+<reculs_float> ::= <digit> <reculs_float> | Ø 
+<dec> ::= <reculs_float> . <reculs_float> | Ø
+<first_invalid> ::= $ 
+<reculs_id> ::= <input_for_id> <reculs_id> | Ø
+<reculs_para> ::= <type> <id> ,  <reculs_para> | <type> <id> | Ø 
+
+
+
+<char> ::= '<input>'
+
+<string> ::= "<reculs_str>"
+
+<integer> ::= <sign> <reculs_int>
+
+<float> ::= <sign> <dec> | <sign> <reculs_float>
+
+<id> ::= <fisrt_invalid> <reculs_id> | <reculs_id>
+
+<func> ::= <modifier> <type> <id> ( <reculs_para> ) { <statement> }
+
+<if_stmt> ::= if ( <expression> ) { <statement> } | elseif ( <expression> ) { <statement> } | else { <statement> }
+
+<while_stmt> ::= while ( <expression> ) { <statement> } 
+
+2.
+The code doesn't really tell me why do they write this code for. if we are adding the 2 A's and the reason for <id> exist because |(or) makes the <id> optional.
+
+3.
+
+<assign>
+<id> = <expr>
+
+A = <term> * <factor> = 
+A = A * <factor>
+
+A = <term> * <factor> = <term> * ( <expr> + <term> ) =
+A = A * ( <expr> + C)
+
+A = <term> * ( <expr> + <term> ) = <term> 
+A = A * ( B + C )
+
+A = <term>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
