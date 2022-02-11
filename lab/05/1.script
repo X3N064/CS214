@@ -1,0 +1,15 @@
+Script started on 2022-02-11 14:43:34-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (fn [P x][x] (+ x x)(+ x x))user=> (fn [x] (+ x x))user=> [K(fn [x] (+ x x))
+[K#object[user$eval136$fn__137 0x29182679 "user$eval136$fn__137@29182679"]
+user=> [Kuser=> [Kuser=> (fn [x] (+ x x)) )2)3)[1P)1)user=> [K(fn [x] (+ x x) 21)
+#object[user$eval140$fn__141 0x682c1e93 "user$eval140$fn__141@682c1e93"]
+user=> [Kuser=> [Kuser=> (fn [x] (+ x x) 21))([1@((fn [x] (+ x x) 21[1P[1P)2)1)[1P))[1@ user=> [K((fn [x] (+ x x)) 21)
+42
+user=> [Kuser=> [Kuser=> ((fn [x y  ][x y] (+ (* x x)(* x x) (* y y  )(* y y)  )(+ (* x x) (* y y)))user=> ((fn [x y] (+ (* x x) (* y y))) 3 4)user=> ((fn [x y] (+ (* x x) (* y y))) 3 4)user=> [K((fn [x y] (+ (* x x) (* y y))) 3 4)
+25
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 14:46:07-05:00 [COMMAND_EXIT_CODE="0"]

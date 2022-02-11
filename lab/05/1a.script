@@ -1,0 +1,23 @@
+Script started on 2022-02-11 14:49:14-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (fn  fn [][]xx x] ]y] ]z]] (Math/ads(x y zz)(x y z)([1@([1@m[1@a[1@x(Math/ads(x y z))(Math/ads(x y z)))[1P[1P[1P[1P) )M)a)t)h)/)a)d)s)()y)))(y) )M)a)t)h)/)a)s)()z)))(z))))user=> (fn [x y z] (max(Math/ads(x) Math/ads(y) Math/as(z))([1@(((Math/ads(x) Math/ads(y) Math/as(z))) )user=> (fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))user=> (fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z)))))user=> (fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))) )4) )5)1) )6)3)2)user=> [K(fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z)))) 4 51 632)
+[KSyntax error compiling at (REPL:1:18).
+Unable to find static field: ads in class java.lang.Math
+user=> [Kuser=> [Kuser=> (fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z)))) 4 51 632))([1@((fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))[1@)user=> ((fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))user=> [K((fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))) 4 51 632)
+Syntax error compiling at (REPL:1:19).
+Unable to find static field: ads in class java.lang.Math
+user=> [Kuser=> [Kuser=> ((fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))) 4 51 632)) )[1P[1Pxx[1@ x Mat[1@)(Math/ads x)) [1@(Math/ads([1Py[1@ y) [1@(Math/as([1P[1@ z)))))[1P[1P[1P[1P[1@)user=> ((fn [x y z] (max((Math/ads x) (Math/ads y) (Math/as z))[1@)user=> ((fn [x y z] (max((Math/ads x) (Math/ads y) (Math/as z)))[1@)user=> ((fn [x y z] (max((Math/ads x) (Math/ads y) (Math/as z)))) 4 ([1P(Math/ads x) (Math/ads y) (Math/as z))))[1Puser=> [K((fn [x y z] (max(Math/ads x) (Math/ads y) (Math/as z))) 4 51 632)
+Syntax error (IllegalArgumentException) compiling . at (REPL:1:18).
+No matching method ads found taking 1 args for class java.lang.Math
+user=> [Kuser=> [Kuser=> ((fn [x y z] (max(Math/ads x) (Math/ads y) (Math/as z))) 4 51 632) [1P[1@ x[1@ user=> [K((fn [x y z] (max (Math/ads x) (Math/ads y) (Math/as z))) 4 51 632)
+Syntax error (IllegalArgumentException) compiling . at (REPL:1:19).
+No matching method ads found taking 1 args for class java.lang.Math
+user=> [Kuser=> [Kuser=> ((fn [x y z] (max (Math/ads x) (Math/ads y) (Math/as z))) 4 51 632)d[1P[1@bs x) (Math/ads[1P[1@bs y) (Math/a[1@buser=> [K((fn [x y z] (max (Math/abs x) (Math/abs y) (Math/abs z))) 4 51 632)
+632
+user=> [Kuser=> [Kuser=> ((fn [x y z] (max (Math/abs x) (Math/abs y) (Math/abs z))) 4 51 632)[1@-[1P[1@4[1@1[1@2 5551 632)user=> [K((fn [x y z] (max (Math/abs x) (Math/abs y) (Math/abs z))) -412 51 632)
+632
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 14:55:07-05:00 [COMMAND_EXIT_CODE="0"]

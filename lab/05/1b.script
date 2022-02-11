@@ -1,0 +1,26 @@
+Script started on 2022-02-11 14:55:35-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ ( clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (fun  n [x y z][x y z] (+ x y z)(+ x y z))user=> (fn [x y z] (+ x y z))user=> [K(fn [x y z] (+ x y z))
+[K#object[user$eval136$fn__137 0x5183d589 "user$eval136$fn__137@5183d589"]
+user=> [Kuser=> [Kuser=> f   (fn [x][x] (nil? x)(nil? x))user=> (fn [x] (nil? x))user=> [K(fn [x] (nil? x))
+#object[user$eval140$fn__141 0x4d4960c8 "user$eval140$fn__141@4d4960c8"]
+user=> [Kuser=> [Kuser=> (fn p[    p [][] 16.2   7.2)user=> (fn [] 17.2)user=> [K(fn [] 17.2)
+#object[user$eval144$fn__145 0x47c64cfe "user$eval144$fn__145@47c64cfe"]
+user=> [Kuser=> [Kuser=> (fn [] 17.2)[5@x] (nil? x))[5@ y z] (+ x y z)) ))[1P)))([1@((fn [x y z] (+ x y z))) )s)[1P)1)4) )1)6) )1)0)user=> [K((fn [x y z] (+ x y z)) 14 16 10)
+40
+user=> [Kuser=> [Kuser=> ((fn [x y z] (+ x y z)) 14 16 10)user=> ([21Pfn [] 17.2)[5@x] (nil? x))user=> ([1@((fn [x] (nil? x)))user=> ((fn [x] (nil? x))) )1)5)2)user=> [K((fn [x] (nil? x)) 152)
+false
+user=> [Kuser=> [Kuser=> ((fn [x] (nil? x)) 152)[1P)[1P)[1P)0)user=> [K((fn [x] (nil? x)) 0)
+false
+user=> [Kuser=> [Kuser=> ((fn [x] (nil? x)) 0)[1P)n)u)l)l)[1P)l[1P)[1P)i)l)user=> [K((fn [x] (nil? x)) nil)
+true
+user=> [Kuser=> [Kuser=> s ((fn [x] (nil? x)) nil)[2P0)[2@152)user=> ((fn [x[10@ y z] (+ x y z)) 14 16 10)user=> ([21Pfn [] 17.2))user=> ([1@((fn [] 17.2))user=> ((fn [] 17.2)) )n)i)l)user=> [K((fn [] 17.2) nil)
+Execution error (ArityException) at user/eval164 (REPL:1).
+Wrong number of args (1) passed to: user/eval164/fn--165
+user=> [Kuser=> [Kuser=> ((fn [] 17.2) nil)[1P)[1P)[1P)[1P)user=> [K((fn [] 17.2))
+17.2
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 14:58:31-05:00 [COMMAND_EXIT_CODE="0"]

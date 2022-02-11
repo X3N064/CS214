@@ -1,0 +1,41 @@
+Script started on 2022-02-11 16:11:22-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ (defn incMaker [incValue]
+>    #(+ % incValue)
+> )
+
+Command 'defn' not found, did you mean:
+
+  command 'den' from snap den (1.2.0-0)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ ^C
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ (defn incMaker [incValue] #(+ % incValue) )
+> 
+> ^C
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (defn incMaker [incValue][incValue] #(+ % incValue)(+ % incValue) )user=> (defn incMaker [incValue] #(+ % incValue) )user=> [K(defn incMaker [incValue] #(+ % incValue) )
+[K#'user/incMaker
+user=> [Kuser=> [Kuser=> (def inc5 (incMaker 5)(incMaker 5))user=> (def inc5 (incMaker 5))user=> [K(def inc5 (incMaker 5))
+#'user/inc5
+user=> [Kuser=> [Kuser=> (defn greetingBuilder [greeting][greeting] (fn [visitor][visitor] (str greeting ", " visitor "!")(str greeting ", " visitor "!") )user=> (defn greetingBuilder [greeting] (fn [visitor] (str greeting ", " visitor "!") ) )user=> (defn greetingBuilder [greeting] (fn [visitor] (str greeting ", " visitor "!") ) )user=> [K(defn greetingBuilder [greeting] (fn [visitor] (str greeting ", " visitor "!") ) )
+#'user/greetingBuilder
+user=> [Kuser=> [Kuser=> (def csGreeting (greetingBuilder "Welcome to CS 214")user=> (def csGreeting (greetingBuilder "Welcome to CS 214"))user=> (def csGreeting (greetingBuilder "Welcome to CS 214"))user=> [K[K(def englishGreeting (greetingBuilder "Hello")(def englishGreeting (greetingBuilder "Hello")[K(def csGreeting (greetingBuilder "Welcome to CS 214"))
+[K(def englishGreeting (greetingBuilder "Hello"))(def englishGreeting (greetingBuilder "Hello"))[K[K(def frenchGreeting (greetingBuilder "Bonjour")(def frenchGreeting (greetingBuilder "Bonjour")[K(def englishGreeting (greetingBuilder "Hello"))
+#'user/csGreeting
+user=> #'user/englishGreeting
+[K(def frenchGreeting (greetingBuilder "Bonjour")[Kuser=> [Kuser=> (def frenchGreeting (greetingBuilder "Bonjour"))user=> (def frenchGreeting (greetingBuilder "Bonjour"))user=> [K(def frenchGreeting (greetingBuilder "Bonjour"))
+#'user/frenchGreeting
+user=> [Kuser=> [Kuser=> (csGreeting "Ann")user=> (csGreeting "Ann")user=> [K[K(englishGreeting "Chris")(englishGreeting "Chris")[K(csGreeting "Ann")
+[K(englishGreeting "Chris")[K[K(frenchGreeting "Chris")(frenchGreeting "Chris")[K"Welcome to CS 214, Ann!"
+user=> (englishGreeting "Chris")
+[K(frenchGreeting "Chris")[K"Hello, Chris!"
+user=> [Kuser=> (frenchGreeting "Chris")user=> [K(frenchGreeting "Chris")
+"Bonjour, Chris!"
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ cat 0.script 1.script 1a.script 1b.script 2.script 2a.script 3.script 3a.script 4.script 4a.sccript 5.script > lab05-results
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ [Kcp lab05-results /home/cs/214/current/yourUserName            hs59
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 16:13:05-05:00 [COMMAND_EXIT_CODE="0"]

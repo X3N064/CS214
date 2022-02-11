@@ -1,0 +1,638 @@
+Script started on 2022-02-11 14:42:34-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (+ 1 2 3 4 5)user=> (+ 1 2 3 4 5)user=> [K(+ 1 2 3 4 5)
+15
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 14:42:43-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-02-11 14:43:34-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (fn [P x][x] (+ x x)(+ x x))user=> (fn [x] (+ x x))user=> [K(fn [x] (+ x x))
+[K#object[user$eval136$fn__137 0x29182679 "user$eval136$fn__137@29182679"]
+user=> [Kuser=> [Kuser=> (fn [x] (+ x x)) )2)3)[1P)1)user=> [K(fn [x] (+ x x) 21)
+#object[user$eval140$fn__141 0x682c1e93 "user$eval140$fn__141@682c1e93"]
+user=> [Kuser=> [Kuser=> (fn [x] (+ x x) 21))([1@((fn [x] (+ x x) 21[1P[1P)2)1)[1P))[1@ user=> [K((fn [x] (+ x x)) 21)
+42
+user=> [Kuser=> [Kuser=> ((fn [x y  ][x y] (+ (* x x)(* x x) (* y y  )(* y y)  )(+ (* x x) (* y y)))user=> ((fn [x y] (+ (* x x) (* y y))) 3 4)user=> ((fn [x y] (+ (* x x) (* y y))) 3 4)user=> [K((fn [x y] (+ (* x x) (* y y))) 3 4)
+25
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 14:46:07-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-02-11 14:49:14-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (fn  fn [][]xx x] ]y] ]z]] (Math/ads(x y zz)(x y z)([1@([1@m[1@a[1@x(Math/ads(x y z))(Math/ads(x y z)))[1P[1P[1P[1P) )M)a)t)h)/)a)d)s)()y)))(y) )M)a)t)h)/)a)s)()z)))(z))))user=> (fn [x y z] (max(Math/ads(x) Math/ads(y) Math/as(z))([1@(((Math/ads(x) Math/ads(y) Math/as(z))) )user=> (fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))user=> (fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z)))))user=> (fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))) )4) )5)1) )6)3)2)user=> [K(fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z)))) 4 51 632)
+[KSyntax error compiling at (REPL:1:18).
+Unable to find static field: ads in class java.lang.Math
+user=> [Kuser=> [Kuser=> (fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z)))) 4 51 632))([1@((fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))[1@)user=> ((fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))user=> [K((fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))) 4 51 632)
+Syntax error compiling at (REPL:1:19).
+Unable to find static field: ads in class java.lang.Math
+user=> [Kuser=> [Kuser=> ((fn [x y z] (max((Math/ads(x) Math/ads(y) Math/as(z))))) 4 51 632)) )[1P[1Pxx[1@ x Mat[1@)(Math/ads x)) [1@(Math/ads([1Py[1@ y) [1@(Math/as([1P[1@ z)))))[1P[1P[1P[1P[1@)user=> ((fn [x y z] (max((Math/ads x) (Math/ads y) (Math/as z))[1@)user=> ((fn [x y z] (max((Math/ads x) (Math/ads y) (Math/as z)))[1@)user=> ((fn [x y z] (max((Math/ads x) (Math/ads y) (Math/as z)))) 4 ([1P(Math/ads x) (Math/ads y) (Math/as z))))[1Puser=> [K((fn [x y z] (max(Math/ads x) (Math/ads y) (Math/as z))) 4 51 632)
+Syntax error (IllegalArgumentException) compiling . at (REPL:1:18).
+No matching method ads found taking 1 args for class java.lang.Math
+user=> [Kuser=> [Kuser=> ((fn [x y z] (max(Math/ads x) (Math/ads y) (Math/as z))) 4 51 632) [1P[1@ x[1@ user=> [K((fn [x y z] (max (Math/ads x) (Math/ads y) (Math/as z))) 4 51 632)
+Syntax error (IllegalArgumentException) compiling . at (REPL:1:19).
+No matching method ads found taking 1 args for class java.lang.Math
+user=> [Kuser=> [Kuser=> ((fn [x y z] (max (Math/ads x) (Math/ads y) (Math/as z))) 4 51 632)d[1P[1@bs x) (Math/ads[1P[1@bs y) (Math/a[1@buser=> [K((fn [x y z] (max (Math/abs x) (Math/abs y) (Math/abs z))) 4 51 632)
+632
+user=> [Kuser=> [Kuser=> ((fn [x y z] (max (Math/abs x) (Math/abs y) (Math/abs z))) 4 51 632)[1@-[1P[1@4[1@1[1@2 5551 632)user=> [K((fn [x y z] (max (Math/abs x) (Math/abs y) (Math/abs z))) -412 51 632)
+632
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 14:55:07-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-02-11 14:55:35-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ ( clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (fun  n [x y z][x y z] (+ x y z)(+ x y z))user=> (fn [x y z] (+ x y z))user=> [K(fn [x y z] (+ x y z))
+[K#object[user$eval136$fn__137 0x5183d589 "user$eval136$fn__137@5183d589"]
+user=> [Kuser=> [Kuser=> f   (fn [x][x] (nil? x)(nil? x))user=> (fn [x] (nil? x))user=> [K(fn [x] (nil? x))
+#object[user$eval140$fn__141 0x4d4960c8 "user$eval140$fn__141@4d4960c8"]
+user=> [Kuser=> [Kuser=> (fn p[    p [][] 16.2   7.2)user=> (fn [] 17.2)user=> [K(fn [] 17.2)
+#object[user$eval144$fn__145 0x47c64cfe "user$eval144$fn__145@47c64cfe"]
+user=> [Kuser=> [Kuser=> (fn [] 17.2)[5@x] (nil? x))[5@ y z] (+ x y z)) ))[1P)))([1@((fn [x y z] (+ x y z))) )s)[1P)1)4) )1)6) )1)0)user=> [K((fn [x y z] (+ x y z)) 14 16 10)
+40
+user=> [Kuser=> [Kuser=> ((fn [x y z] (+ x y z)) 14 16 10)user=> ([21Pfn [] 17.2)[5@x] (nil? x))user=> ([1@((fn [x] (nil? x)))user=> ((fn [x] (nil? x))) )1)5)2)user=> [K((fn [x] (nil? x)) 152)
+false
+user=> [Kuser=> [Kuser=> ((fn [x] (nil? x)) 152)[1P)[1P)[1P)0)user=> [K((fn [x] (nil? x)) 0)
+false
+user=> [Kuser=> [Kuser=> ((fn [x] (nil? x)) 0)[1P)n)u)l)l)[1P)l[1P)[1P)i)l)user=> [K((fn [x] (nil? x)) nil)
+true
+user=> [Kuser=> [Kuser=> s ((fn [x] (nil? x)) nil)[2P0)[2@152)user=> ((fn [x[10@ y z] (+ x y z)) 14 16 10)user=> ([21Pfn [] 17.2))user=> ([1@((fn [] 17.2))user=> ((fn [] 17.2)) )n)i)l)user=> [K((fn [] 17.2) nil)
+Execution error (ArityException) at user/eval164 (REPL:1).
+Wrong number of args (1) passed to: user/eval164/fn--165
+user=> [Kuser=> [Kuser=> ((fn [] 17.2) nil)[1P)[1P)[1P)[1P)user=> [K((fn [] 17.2))
+17.2
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 14:58:31-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-02-11 14:59:28-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (df ef   triple             (def triple (fn [x][x] (* x 3)(* x 3))(fn [x] (* x 3)))user=> (def triple (fn [x] (* x 3)))user=> [K(def triple (fn [x] (* x 3)))
+[K#'user/triple
+user=> [Kuser=> [Kuser=> t (trip   ple 4)user=> (triple 4)user=> [K(triple 4)
+12
+user=> [Kuser=> [Kuser=> (defn triple [x][x] (* x 3)(* x 3))user=> (defn triple [x] (* x 3))user=> [K(defn triple [x] (* x 3))
+#'user/triple
+user=> [Kuser=> [Kuser=> (triple 4)user=> (triple 4)user=> [K(triple 4)
+12
+user=> [Kuser=> [Kuser=> (defn triple [x][x] (* x 3)(* x 3))user=> (defn triple [x] (* x 3))user=> [K(defn triple [x] (* x 3))
+#'user/triple
+user=> [Kuser=> [Kuser=> (sum2Squares 3 4)user=> (sum2Squares 3 4)user=> [K(sum2Squares 3 4)
+Syntax error compiling at (REPL:1:1).
+Unable to resolve symbol: sum2Squares in this context
+user=> [Kuser=> [Kuser=> (def sum2Squares #(+ (* %1 %1)(* %1 %1) (* %2 %2)(* %2 %2))(+ (* %1 %1) (* %2 %2)))user=> (def sum2Squares #(+ (* %1 %1) (* %2 %2)))user=> [K(def sum2Squares #(+ (* %1 %1) (* %2 %2)))
+#'user/sum2Squares
+user=> [Kuser=> [Kuser=> (sum2Squares 3 4)user=> (sum2Squares 3 4)user=> [K(sum2Squares 3 4)
+25
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 15:05:38-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-02-11 15:06:00-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ s clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (defn s S sque areSuare    quare[1P squareSquare(fn [x][x] (* x 9 9 (* x)(* x))(* x (* x)))(fn [x] (* x (* x))))user=> (def squareSquare(fn [x] (* x (* x))))* [1@ [1@x [1P[1@x [1@ [1@x [1@ [1@x [1@ [1@x ([1P*[1P[1P[1P[1P[1P[1P))))   )(fn [x] (* x x x x)))user=> (def squareSquare(fn [x] (* x x x x)))user=> [K(def squareSquare(fn [x] (* x x x x)))
+[K#'user/squareSquare
+user=> [Kuser=> [Kuser=> s squareSquare 225)[1@(squareSquare 225)user=> [K(squareSquare 225)
+2562890625
+user=> [Kuser=> [Kuser=> (squareSquare 225)[1P)[1P)[1P)1)5)user=> [K(squareSquare 15)
+50625
+user=> [Kuser=> [Kuser=> (squareSquare 15)5[1P)[1P)2)user=> [K(squareSquare 2)
+16
+user=> [Kuser=> [Kuser=> (squareSquare 2)[1P)3)user=> [K(squareSquare 3)
+81
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 15:11:37-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-02-11 15:12:02-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> map()()     (map + [1 2 3 4][1 2 3 4] [1 2 3 4][1 2 3 4])user=> (map + [1 2 3 4] [1 2 3 4])user=> [K(map + [1 2 3 4] [1 2 3 4])
+(2 4 6 8)
+user=> [Kuser=> [Kuser=> (map * [1 2 3 4][1 2 3 4] [1 2 3 4][1 2 3 4])user=> (map * [1 2 3 4] [1 2 3 4])user=> [K(map * [1 2 3 4] [1 2 3 4])
+(1 4 9 16)
+user=> [Kuser=> [Kuser=> (Math/abs -3)user=> (Math/abs -3)user=> [K(Math/abs -3)
+3
+user=> [Kuser=> [Kuser=> (map Math/abs [-1 2 -3 4 -5][-1 2 -3 4 -5])user=> (map Math/abs [-1 2 -3 4 -5])user=> [K(map Math/abs [-1 2 -3 4 -5])
+Syntax error compiling at (REPL:1:1).
+Unable to find static field: abs in class java.lang.Math
+user=> [Kuser=> [Kuser=> (map (fn [x][x] (if (< x 0)(< x 0) (- x)(- x) x)(if (< x 0) (- x) x))user=> (map (fn [x] (if (< x 0) (- x) x)) [-1 2 -3 4 -5][-1 2 -3 4 -5])user=> (map (fn [x] (if (< x 0) (- x) x)) [-1 2 -3 4 -5])user=> [K(map (fn [x] (if (< x 0) (- x) x)) [-1 2 -3 4 -5])
+[K(1 2 3 4 5)
+user=> [Kuser=> [Kuser=> (defn subtract-n [n sequence][n sequence] (map (fn [x][x] (- x n)(- x n))(fn [x] (- x n)) sequence)(map (fn [x] (- x n)) sequence) )user=> (defn subtract-n [n sequence] (map (fn [x] (- x n)) sequence) )user=> [K(defn subtract-n [n sequence] (map (fn [x] (- x n)) sequence) )
+#'user/subtract-n
+user=> [Kuser=> [Kuser=> (subtract-n 2 [5 6 7 8][5 6 7 8])user=> (subtract-n 2 [5 6 7 8])user=> [K(subtract-n 2 [5 6 7 8])
+(3 4 5 6)
+user=> [Kuser=> [Kuser=> (map pos?  [-1 1 -2 2 -3 3][-1 1 -2 2 -3 3]user=> [K(map pos?  [-1 1 -2 2 -3 3]
+[K[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (map p pos?  [-1 1 -2 2 -3 3][-1 1 -2 2 -3 3])user=> (map pos?  [-1 1 -2 2 -3 3])user=> [K(map pos?  [-1 1 -2 2 -3 3])
+(false true false true false true)
+user=> [Kuser=> [Kuser=> pos?  [-1 1 -2 2 -3 3]user=> pos?  [-1 1 -2 2 -3 3]                      (filter (fn [x][x] (and (pos? x)(pos? x) (even? x)(even? x))(and (pos? x) (even? x)))user=> (filter (fn [x] (and (pos? x) (even? x))) [-1 1 -2 2 -3 3 -4 4][-1 1 -2 2 -3 3 -4 4])user=> (filter (fn [x] (and (pos? x) (even? x))) [-1 1 -2 2 -3 3 -4 4])user=> [K(filter (fn [x] (and (pos? x) (even? x))) [-1 1 -2 2 -3 3 -4 4])
+[K(2 4)
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 15:18:10-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-02-11 15:18:22-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (negate [-1 2 03  -3][-1 2 -3])user=> (negate [-1 2 -3])user=> [K(negate [-1 2 -3])
+Syntax error compiling at (REPL:1:1).
+Unable to resolve symbol: negate in this context
+user=> [Kuser=> [Kuser=> c ) (defn ngate    egate [x][x] ]y] ]z]] (* -1)(* -1)) -1 )x)) )y) )z))-1 x y z1 ]][1P[1P[1P[1P[1P[1P[1P[1@m[1@a[1@p map [1P(* -1 x y z[1P)[1P)[1P)[1P)[1P)(*[1P[1P[1P[1P[1P[1@([1@m[1@a[1@p [1@ [1@* -1 [)])[][1@x[1@ [1@ [1P[1@y[1@ [1@z[1P[1P[1P[1P[1P[1@x[1P[1P ][1P)[1@x[1P[1@[[1@x[1@y[1P[1@ [1@y[1@ [1@z[1@][x y z](map * -1 [)])[][1@x[1@ [1@y[1@ [1@z]))user=> (defn negate [x y z](map * -1 [x y z]))[1@)(map * -1)* -1) [x y z])))  )  )user=> (defn negate [x y z](map * -1) [x y z]))[1P * -1[1@(* -1 [x y z]))(* -1 [x y z])))(map (* -1 [x y z]))))user=> (defn negate [x y z](map (* -1 [x y z])))[K) )user=> (defn negate [x y z](map (* -1 [x y z])))user=> [K(defn negate [x y z](map (* -1 [x y z])))
+[K#'user/negate
+user=> [Kuser=> [Kuser=> (negate [-1 2 -3][-1 2 -3])user=> (negate [-1 2 -3])user=> [K(negate [-1 2 -3])
+Execution error (ArityException) at user/eval138 (REPL:1).
+Wrong number of args (1) passed to: user/negate
+user=> [Kuser=> [Kuser=> (negate [-1 2 -3])[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[35@defn negate [x y z](map (* -1 [x y z])))-1 [x y z])))                            #(* % -1)(* % -1))user=> (defn negate #(* % -1))user=> [K(defn negate #(* % -1))
+Syntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__141#] (* p1__141# -1)) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn negate #(* % -1))) [1P negate #(* % -1))user=> [K(def negate #(* % -1))
+#'user/negate
+user=> [Kuser=> [Kuser=> negate        (negate [-1 2 -3][-1 2 -3])user=> (negate [-1 2 -3])user=> [K(negate [-1 2 -3])
+Execution error (ClassCastException) at user/negate (REPL:1).
+class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (def negate (fn [x y z][x y z] (* -1)(* -1) (x)(x))user=> (def negate (fn [x y z] (* -1) (x))    (t y)(y) (z)(z))user=> (def negate (fn [x y z] (* -1) (x) (y) (z)))user=> (def negate (fn [x y z] (* -1) (x) (y) (z)))user=> [K(def negate (fn [x y z] (* -1) (x) (y) (z)))
+#'user/negate
+user=> [Kuser=> [Kuser=> negate        (negate [-1 2 -3][-1 2 -3])user=> (negate [-1 2 -3])user=> [K(negate [-1 2 -3])
+Execution error (ArityException) at user/eval148 (REPL:1).
+Wrong number of args (1) passed to: user/negate
+user=> [Kuser=> [Kuser=> (negate [-1 2 -3])user=> ([26@def negate (fn [x y z] (* -1) (x) (y) (z)))z)) (x) (y) (z))z))))user=> (def negate (fn [x y z] (* -1) (x) (y) (z))([1@((* -1) (x) (y) (z))))user=> [K(def negate (fn [x y z] ((* -1) (x) (y) (z))))
+#'user/negate
+user=> [Kuser=> [Kuser=> (negate [-1 2 -3][-1 2 -3])user=> (negate [-1 2 -3])user=> [K(negate [-1 2 -3])
+Execution error (ArityException) at user/eval151 (REPL:1).
+Wrong number of args (1) passed to: user/negate
+user=> [Kuser=> [Kuser=> negate =        9def    (def negtat   ate map  = ()()))user=> (def negate map())[1@s[1P[1@s[1P([1P)[K )*)-)[1P) )-)1) )[)])[][1@(* -1[1@)(* -1)[1@(map (* -1) []))user=> (def negate (map (* -1) []))user=> [K(def negate (map (* -1) []))
+#'user/negate
+user=> [Kuser=> [Kuser=> (negate [-1 2 -3][-1 2 -3])user=> (negate [-1 2 -3])user=> [K(negate [-1 2 -3])
+Execution error (ClassCastException) at user/eval153 (REPL:1).
+class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+user=> [Kuser=> [Kuser=> (negate [-1 2 -3])user=> ([10@def negate (map (* -1) []))user=> ([10Pnegate [-1 2 -3])user=> [K(negate [-1 2 -3])user=> ([10@def negate (map (* -1) []))[1@x[1@ [1@y[1@ [2@xz[1P[1P[1@zuser=> [K(def negate (map (* -1) [x y z]))
+Syntax error compiling at (REPL:1:13).
+Unable to resolve symbol: x in this context
+user=> [Kuser=> [Kuser=> (def negate (map (* -1) [x y z]))-1[1@[[1@x[1@ [1@y[1@ [1@z[1@][x y z]user=> [K(def negate [x y z](map (* -1) [x y z]))
+Syntax error compiling def at (REPL:1:1).
+Too many arguments to def
+user=> [Kuser=> [Kuser=> (def negate [x y z](map (* -1) [x y z]))[1P[1P[1P[1P[1P[1P[1P(map (* -1) [x y z][1P[1P[1P[1P[1P[1P[1P[1@%user=> [K(def negate (map (* -1) %))
+Syntax error compiling at (REPL:1:13).
+Unable to resolve symbol: % in this context
+user=> [Kuser=> [Kuser=> (def negate (map (* -1) %))[13@[x y z](map (* -1) [x y z]))user=> (def negate [13P(map (* -1) %))(map (* -1) %[1P[1P)[K[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P)[K#)()*) )%) )-)1)))user=> (def negate #(* % -1)) #(* % -1)))* % -1)user=> [K(def negate #(* % -1))
+#'user/negate
+user=> [Kuser=> [Kuser=> negate s map(           (negate [-1 2 -3][-1 2 -3])user=> (negate [-1 2 -3])user=> [K(negate [-1 2 -3])
+Execution error (ClassCastException) at user/negate (REPL:1).
+class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> map((negate [-1 2 -3][-1 2 -3])user=> map((negate [-1 2 -3])user=> [Kmap((negate [-1 2 -3])
+#object[clojure.core$map 0x6edc4161 "clojure.core$map@6edc4161"]
+[K[Kmap((negate [-1 2 -3])[1P[Kmap(negate [-1 2 -3])
+[K[K
+[1]+  Stopped                 clojure
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (filter (fn [x] (and (pos? x) (even? x))) [-1 1 -2 2 -3 3 -4 4])user=> ([36Pmap pos?  [-1 1 -2 2 -3 3])[K)user=> ([36@filter (fn [x] (and (pos? x) (even? x))) [-1 1 -2 2 -3 3 -4 4])user=> [K(def negar  t agte      te  ate (  *%    &   % -1)(* % -1))user=> (def negate (* % -1))user=> [K(def negate (* % -1))
+Syntax error compiling at (REPL:1:13).
+Unable to resolve symbol: % in this context
+user=> [Kuser=> [Kuser=> (def  ne   negateSet #(map negate %)(map negate %))user=> (def negateSet #(map negate %))user=> [K(def negateSet #(map negate %))
+#'user/negateSet
+user=> [Kuser=> [Kuser=> (negate [-1 2 -3][-1 2 -3])user=> (negate [-1 2 -3])e[1@S[1@e[1@tuser=> [K(negateSet [-1 2 -3])
+Error printing return value (IllegalStateException) at clojure.lang.Var$Unbound/throwArity (Var.java:45).
+Attempting to call unbound fn: #'user/negate
+(user=> [K(user=> [K(user=> (negateSet [-1 2 -3])-1 2 (user=> ([10@def negateSet #(map negate %))(user=> ([10PnegateSet [-1 2 -3])(user=> [Kd (def negate #(* % -1)(* % -1))(user=> (def negate #(* % -1))(user=> [K(def negate #(* % -1))
+#'user/negate
+user=> [Kuser=> [Kuser=> (def negate #(* % -1))user=> ([1PnegateSet [-1 2 -3])user=> [K(negateSet [-1 2 -3])
+(1 -2 3)
+user=> [Kuser=> [Kuser=> (negateSet [-1 2 -3])user=> ([1@def negate #(* % -1))user=> ([1PnegateSet [-1 2 -3])user=> [K(negateSet [-1 2 -3])[1P[1P[1P[1P[1P[1P[1P[1@4[1@ [1@-[1@5[1@ [1@-[1P[1@6user=> [K(negateSet [4 -5 6])
+(-4 5 -6)
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+There are stopped jobs.
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clera
+
+Command 'clera' not found, did you mean:
+
+  command 'clear' from deb ncurses-bin (6.2-0ubuntu2)
+
+Try: apt install <deb name>
+
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clear
+[H[2J[3J]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ script 4.script
+Script started, file is 4.script
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ col  loh jure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> ( red    recud3e     duce         (reduce + [1 2 3 4 5][1 2 3 4 5])user=> (reduce + [1 2 3 4 5])user=> [K(reduce + [1 2 3 4 5])
+15
+user=> [Kuser=> [Kuser=> (reduce + 1 [2 3 4 5][2 3 4 5])user=> (reduce + 1 [2 3 4 5])user=> [K(reduce + 1 [2 3 4 5])
+15
+user=> [Kuser=> [Kuser=> (reduce + 1 '(2 3 4 5)(2 3 4 5))user=> [K(reduce + 1 '(2 3 4 5))
+15
+user=> [Kuser=> [Kuser=> (reduce max 5 [4 3 2 1][4 3 2 1])user=> (reduce max 5 [4 3 2 1])user=> [K(reduce max 5 [4 3 2 1])
+5
+user=> [Kuser=> [Kuser=> (reduce bit-or [1 2 3 4][1 2 3 4])user=> (reduce bit-or [1 2 3 4])user=> [K(reduce bit-or [1 2 3 4])
+7
+user=> [Kuser=> [Kuser=> (reduce str ["a" "b" "c"]["a" "b" "c"])user=> (reduce str ["a" "b" "c"])user=> [K(reduce str ["a" "b" "c"])
+"abc"
+user=> [Kuser=> [Kuser=> (reduce + 1 2 [3 4 5][3 4 5])user=> (reduce + 1 2 [3 4 5])user=> [K(reduce + 1 2 [3 4 5])
+Execution error (ArityException) at user/eval13 (REPL:1).
+Wrong number of args (4) passed to: clojure.core/reduce
+user=> [Kuser=> [Kuser=> (reduce + 1 '(2 3 4)(2 3 4) 5)user=> [K(reduce + 1 '(2 3 4) 5)
+Execution error (ArityException) at user/eval15 (REPL:1).
+Wrong number of args (4) passed to: clojure.core/reduce
+user=> [Kuser=> [Kuser=> (defn csv [seq][seq] (reduce (fn [a b][a b] (str a "," b)(str a "," b))(fn [a b] (str a "," b)) seq)user=> (defn csv [seq] (reduce (fn [a b] (str a "," b)) seq) )user=> (defn csv [seq] (reduce (fn [a b] (str a "," b)) seq) )user=> [K(defn csv [seq] (reduce (fn [a b] (str a "," b)) seq) )
+[K#'user/csv
+user=> [Kuser=> [Kuser=> (csv [11 22 33][11 22 33])user=> (csv [11 22 33])user=> [K(csv [11 22 33])
+"11,22,33"
+user=> [Kuser=> [Kuser=> (defn totalItems [seqOfSeqs][seqOfSeqs] (reduce + (map count seqOfSeqs)(map count seqOfSeqs))(reduce + (map count seqOfSeqs)) )user=> (defn totalItems [seqOfSeqs] (reduce + (map count seqOfSeqs)) )user=> [K(defn totalItems [seqOfSeqs] (reduce + (map count seqOfSeqs)) )
+#'user/totalItems
+user=> [Kuser=> [Kuser=> (totalItems [["Ann"]["Ann"] ["Bob" "Chris"]["Bob" "Chris"] ["Dan" "Eve" "Fred"]["Dan" "Eve" "Fred"]]user=> (totalItems [["Ann"] ["Bob" "Chris"] ["Dan" "Eve" "Fred"]])user=> (totalItems [["Ann"] ["Bob" "Chris"] ["Dan" "Eve" "Fred"]])user=> [K(totalItems [["Ann"] ["Bob" "Chris"] ["Dan" "Eve" "Fred"]])
+6
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+Script done, file is 4.script
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ script 4a.w script
+Script started, file is 4a.script
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (def sumSqurs es   ares map  (s  s ( s    #(* % %  )(* % %)([1@([1@+[1@ (* % %))(* % %)))(+ (* % %))))user=> (def sumSquares #(+ (* % %)))user=> [K(def sumSquares #(+ (* % %))))
+#'user/sumSquares
+Syntax error reading source at (REPL:1:31).
+Unmatched delimiter: )
+user=> [Kuser=> [Kuser=> (def sumSquares #(+ (* % %)))) )  )user=> (def sumSquares #(+ (* % %)))user=> [K(def sumSquares #(+ (* % %)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3))  user=> [K(sumSquares '(1 2 3))
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3))res user=> ([8@def sumSquares #(+ (* % %)))[1@\[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@[[1@][][1@n sumSquares [[1P[1P[1@m[1@a[1@p[1@()[1P[1P[1P[1P[1P))[K[1@ )[Kr)e)d)u)c)e)+) )[1P)[1P) )+) )[)])[]][1P)[1P)m)a)p) )s)[1P)*) )%)[1@#[1@(reduce + map * %))(reduce + map * %)) [1@ [1@%  [1@(map % * %)))(map % * %) + (map % * %)))user=> [K(defn sumSquares #(reduce + (map % * %)))
+[KSyntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__10#] (reduce + (map p1__10# * p1__10#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map % * %)))[1P * [1@ %[1@%[1@ user=> [K(defn sumSquares #(reduce + (map  *  % %)))
+Syntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__147#] (reduce + (map * p1__147# p1__147#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map  *  % %))) % %[1P[1Puser=> [K(defn sumSquares #(reduce + (map  *  %)))
+Syntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__149#] (reduce + (map * p1__149#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map  *  %)))[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P))[K[1@()))()[1@*[1@ [1P[1@[[1@][][1@s[1P[1P[1@s[1@e[1@q[1@][seq][1@ (reduce + (* [1@w[1P([1@s[1Puser=> [K(defn sumSquares [seq] (reduce + (* )))[1@s[1@q[1P[1@e[1@q[1@ [1@s[1@e[1@quser=> [K(defn sumSquares [seq] (reduce + (* seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) \ user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)) user=> (defn sumSquares [seq] (reduce + (* seq seq)))                      fn _ + [s  seq[1@(([1P[1P[1P[1P(+ seqqq   (* seq seq)(* seq seq))(+ (* seq seq)))user=> (defn sumSquares [seq] (+ (* seq seq)))user=> [K(defn sumSquares [seq] (+ (* seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> 
+[1]+  Stopped                 clojure
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (totalItems [["Ann"] ["Bob" "Chris"] ["Dan" "Eve" "Fred"]])user=> [K(df   ef sumSuq a  quares [se][se] q][seq] (n fn    (          fn [][]s]e]q]][1@(fn [seq]  (+ (*q  seq seq)(* seq seq))(+ (* seq seq)))user=> (def sumSquares (fn [seq](+ (* seq seq))))user=> (def sumSquares (fn [seq](+ (* seq seq))))user=> [K(def sumSquares (fn [seq](+ (* seq seq))))
+[K#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)) user=> (def sumSquares (fn [seq](+ (* seq seq))))[1P[1P[1@r[1@e[1@d[1@u[1@c[1@euser=> [K(def sumSquares (reduce [seq](+ (* seq seq))))
+Execution error (ClassCastException) at jdk.internal.reflect.NativeMethodAccessorImpl/invoke0 (NativeMethodAccessorImpl.java:-2).
+class clojure.core$seq__5402 cannot be cast to class java.lang.Number (clojure.core$seq__5402 is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (def sumSquares (reduce [seq](+ (* seq seq))))[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P)))[K))[K)[K[1@n sumSquares user=> [K
+[2]+  Stopped                 clojure
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojrue   ue re
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> ( (defn sumSquares [seq][seq] (reduce + (map * [seq][seq]     seq)(map * seq) )s)e)q)))(map * seq seq)))(reduce + (map * seq seq))))user=> (defn sumSquares [seq] (reduce + (map * seq seq)))user=> [K(defn sumSquares [seq] (reduce + (map * seq seq))))
+[K#'user/sumSquares
+Syntax error reading source at (REPL:1:52).
+Unmatched delimiter: )
+user=> [Kuser=> [Kuser=> (defn sumSquares [seq] (reduce + (map * seq seq)))) ) user=> [K(defn sumSquares [seq] (reduce + (map * seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+14
+user=> [Kuser=> [Kuser=> sum   (sumSquares '(1 2 3 4 5)(1 2 3 4 5))user=> [K(sumSquares '(1 2 3 4 5))
+55
+user=> [Kuser=> [Kuser=> (sumSquares [-1 -2 -3 0 1][-1 -2 -3 0 1])user=> (sumSquares [-1 -2 -3 0 1])user=> [K(sumSquares [-1 -2 -3 0 1])
+15
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+There are stopped jobs.
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ ls
+0.script  1a.script  1b.script  1.script  2a.script  2.script  3a.script  3.script  4a.script  4.script
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ cd  cat 4.a
+cat: 4.a: No such file or directory
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ cat 4a.script 
+Script started on 2022-02-11 15:43:23-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (def sumSqurs es   ares map  (s  s ( s    #(* % %  )(* % %)([1@([1@+[1@ (* % %))(* % %)))(+ (* % %))))user=> (def sumSquares #(+ (* % %)))user=> [K(def sumSquares #(+ (* % %))))
+#'user/sumSquares
+Syntax error reading source at (REPL:1:31).
+Unmatched delimiter: )
+user=> [Kuser=> [Kuser=> (def sumSquares #(+ (* % %)))) )  )user=> (def sumSquares #(+ (* % %)))user=> [K(def sumSquares #(+ (* % %)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3))  user=> [K(sumSquares '(1 2 3))
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3))res user=> ([8@def sumSquares #(+ (* % %)))[1@\[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@[[1@][][1@n sumSquares [[1P[1P[1@m[1@a[1@p[1@()[1P[1P[1P[1P[1P))[K[1@ )[Kr)e)d)u)c)e)+) )[1P)[1P) )+) )[)])[]][1P)[1P)m)a)p) )s)[1P)*) )%)[1@#[1@(reduce + map * %))(reduce + map * %)) [1@ [1@%  [1@(map % * %)))(map % * %) + (map % * %)))user=> [K(defn sumSquares #(reduce + (map % * %)))
+[KSyntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__10#] (reduce + (map p1__10# * p1__10#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map % * %)))[1P * [1@ %[1@%[1@ user=> [K(defn sumSquares #(reduce + (map  *  % %)))
+Syntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__147#] (reduce + (map * p1__147# p1__147#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map  *  % %))) % %[1P[1Puser=> [K(defn sumSquares #(reduce + (map  *  %)))
+Syntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__149#] (reduce + (map * p1__149#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map  *  %)))[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P))[K[1@()))()[1@*[1@ [1P[1@[[1@][][1@s[1P[1P[1@s[1@e[1@q[1@][seq][1@ (reduce + (* [1@w[1P([1@s[1Puser=> [K(defn sumSquares [seq] (reduce + (* )))[1@s[1@q[1P[1@e[1@q[1@ [1@s[1@e[1@quser=> [K(defn sumSquares [seq] (reduce + (* seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) \ user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)) user=> (defn sumSquares [seq] (reduce + (* seq seq)))                      fn _ + [s  seq[1@(([1P[1P[1P[1P(+ seqqq   (* seq seq)(* seq seq))(+ (* seq seq)))user=> (defn sumSquares [seq] (+ (* seq seq)))user=> [K(defn sumSquares [seq] (+ (* seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> 
+[1]+  Stopped                 clojure
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (totalItems [["Ann"] ["Bob" "Chris"] ["Dan" "Eve" "Fred"]])user=> [K(df   ef sumSuq a  quares [se][se] q][seq] (n fn    (          fn [][]s]e]q]][1@(fn [seq]  (+ (*q  seq seq)(* seq seq))(+ (* seq seq)))user=> (def sumSquares (fn [seq](+ (* seq seq))))user=> (def sumSquares (fn [seq](+ (* seq seq))))user=> [K(def sumSquares (fn [seq](+ (* seq seq))))
+[K#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)) user=> (def sumSquares (fn [seq](+ (* seq seq))))[1P[1P[1@r[1@e[1@d[1@u[1@c[1@euser=> [K(def sumSquares (reduce [seq](+ (* seq seq))))
+Execution error (ClassCastException) at jdk.internal.reflect.NativeMethodAccessorImpl/invoke0 (NativeMethodAccessorImpl.java:-2).
+class clojure.core$seq__5402 cannot be cast to class java.lang.Number (clojure.core$seq__5402 is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (def sumSquares (reduce [seq](+ (* seq seq))))[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P)))[K))[K)[K[1@n sumSquares user=> [K
+[2]+  Stopped                 clojure
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojrue   ue re
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> ( (defn sumSquares [seq][seq] (reduce + (map * [seq][seq]     seq)(map * seq) )s)e)q)))(map * seq seq)))(reduce + (map * seq seq))))user=> (defn sumSquares [seq] (reduce + (map * seq seq)))user=> [K(defn sumSquares [seq] (reduce + (map * seq seq))))
+[K#'user/sumSquares
+Syntax error reading source at (REPL:1:52).
+Unmatched delimiter: )
+user=> [Kuser=> [Kuser=> (defn sumSquares [seq] (reduce + (map * seq seq)))) ) user=> [K(defn sumSquares [seq] (reduce + (map * seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+14
+user=> [Kuser=> [Kuser=> sum   (sumSquares '(1 2 3 4 5)(1 2 3 4 5))user=> [K(sumSquares '(1 2 3 4 5))
+55
+user=> [Kuser=> [Kuser=> (sumSquares [-1 -2 -3 0 1][-1 -2 -3 0 1])user=> (sumSquares [-1 -2 -3 0 1])user=> [K(sumSquares [-1 -2 -3 0 1])
+15
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+There are stopped jobs.
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ ls
+0.script  1a.script  1b.script  1.script  2a.script  2.script  3a.script  3.scr]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ s clear
+[H[2J[3J]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ script clomk  jure       5.script
+Script started, file is 5.script
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ (defn incMaker [incValue]
+>    #(+ % incValue)
+> )
+
+Command 'defn' not found, did you mean:
+
+  command 'den' from snap den (1.2.0-0)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ ^C
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ (defn incMaker [incValue] #(+ % incValue) )
+> 
+> ^C
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (defn incMaker [incValue][incValue] #(+ % incValue)(+ % incValue) )user=> (defn incMaker [incValue] #(+ % incValue) )user=> [K(defn incMaker [incValue] #(+ % incValue) )
+[K#'user/incMaker
+user=> [Kuser=> [Kuser=> (def inc5 (incMaker 5)(incMaker 5))user=> (def inc5 (incMaker 5))user=> [K(def inc5 (incMaker 5))
+#'user/inc5
+user=> [Kuser=> [Kuser=> (defn greetingBuilder [greeting][greeting] (fn [visitor][visitor] (str greeting ", " visitor "!")(str greeting ", " visitor "!") )user=> (defn greetingBuilder [greeting] (fn [visitor] (str greeting ", " visitor "!") ) )user=> (defn greetingBuilder [greeting] (fn [visitor] (str greeting ", " visitor "!") ) )user=> [K(defn greetingBuilder [greeting] (fn [visitor] (str greeting ", " visitor "!") ) )
+#'user/greetingBuilder
+user=> [Kuser=> [Kuser=> (def csGreeting (greetingBuilder "Welcome to CS 214")user=> (def csGreeting (greetingBuilder "Welcome to CS 214"))user=> (def csGreeting (greetingBuilder "Welcome to CS 214"))user=> [K[K(def englishGreeting (greetingBuilder "Hello")(def englishGreeting (greetingBuilder "Hello")[K(def csGreeting (greetingBuilder "Welcome to CS 214"))
+[K(def englishGreeting (greetingBuilder "Hello"))(def englishGreeting (greetingBuilder "Hello"))[K[K(def frenchGreeting (greetingBuilder "Bonjour")(def frenchGreeting (greetingBuilder "Bonjour")[K(def englishGreeting (greetingBuilder "Hello"))
+#'user/csGreeting
+user=> #'user/englishGreeting
+[K(def frenchGreeting (greetingBuilder "Bonjour")[Kuser=> [Kuser=> (def frenchGreeting (greetingBuilder "Bonjour"))user=> (def frenchGreeting (greetingBuilder "Bonjour"))user=> [K(def frenchGreeting (greetingBuilder "Bonjour"))
+#'user/frenchGreeting
+user=> [Kuser=> [Kuser=> (csGreeting "Ann")user=> (csGreeting "Ann")user=> [K[K(englishGreeting "Chris")(englishGreeting "Chris")[K(csGreeting "Ann")
+[K(englishGreeting "Chris")[K[K(frenchGreeting "Chris")(frenchGreeting "Chris")[K"Welcome to CS 214, Ann!"
+user=> (englishGreeting "Chris")
+[K(frenchGreeting "Chris")[K"Hello, Chris!"
+user=> [Kuser=> (frenchGreeting "Chris")user=> [K(frenchGreeting "Chris")
+"Bonjour, Chris!"
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ cat 0.script 1.script 1a.scrScript started on 2022-02-11 15:40:48-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ col  loh jure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> ( red    recud3e     duce         (reduce + [1 2 3 4 5][1 2 3 4 5])user=> (reduce + [1 2 3 4 5])user=> [K(reduce + [1 2 3 4 5])
+15
+user=> [Kuser=> [Kuser=> (reduce + 1 [2 3 4 5][2 3 4 5])user=> (reduce + 1 [2 3 4 5])user=> [K(reduce + 1 [2 3 4 5])
+15
+user=> [Kuser=> [Kuser=> (reduce + 1 '(2 3 4 5)(2 3 4 5))user=> [K(reduce + 1 '(2 3 4 5))
+15
+user=> [Kuser=> [Kuser=> (reduce max 5 [4 3 2 1][4 3 2 1])user=> (reduce max 5 [4 3 2 1])user=> [K(reduce max 5 [4 3 2 1])
+5
+user=> [Kuser=> [Kuser=> (reduce bit-or [1 2 3 4][1 2 3 4])user=> (reduce bit-or [1 2 3 4])user=> [K(reduce bit-or [1 2 3 4])
+7
+user=> [Kuser=> [Kuser=> (reduce str ["a" "b" "c"]["a" "b" "c"])user=> (reduce str ["a" "b" "c"])user=> [K(reduce str ["a" "b" "c"])
+"abc"
+user=> [Kuser=> [Kuser=> (reduce + 1 2 [3 4 5][3 4 5])user=> (reduce + 1 2 [3 4 5])user=> [K(reduce + 1 2 [3 4 5])
+Execution error (ArityException) at user/eval13 (REPL:1).
+Wrong number of args (4) passed to: clojure.core/reduce
+user=> [Kuser=> [Kuser=> (reduce + 1 '(2 3 4)(2 3 4) 5)user=> [K(reduce + 1 '(2 3 4) 5)
+Execution error (ArityException) at user/eval15 (REPL:1).
+Wrong number of args (4) passed to: clojure.core/reduce
+user=> [Kuser=> [Kuser=> (defn csv [seq][seq] (reduce (fn [a b][a b] (str a "," b)(str a "," b))(fn [a b] (str a "," b)) seq)user=> (defn csv [seq] (reduce (fn [a b] (str a "," b)) seq) )user=> (defn csv [seq] (reduce (fn [a b] (str a "," b)) seq) )user=> [K(defn csv [seq] (reduce (fn [a b] (str a "," b)) seq) )
+[K#'user/csv
+user=> [Kuser=> [Kuser=> (csv [11 22 33][11 22 33])user=> (csv [11 22 33])user=> [K(csv [11 22 33])
+"11,22,33"
+user=> [Kuser=> [Kuser=> (defn totalItems [seqOfSeqs][seqOfSeqs] (reduce + (map count seqOfSeqs)(map count seqOfSeqs))(reduce + (map count seqOfSeqs)) )user=> (defn totalItems [seqOfSeqs] (reduce + (map count seqOfSeqs)) )user=> [K(defn totalItems [seqOfSeqs] (reduce + (map count seqOfSeqs)) )
+#'user/totalItems
+user=> [Kuser=> [Kuser=> (totalItems [["Ann"]["Ann"] ["Bob" "Chris"]["Bob" "Chris"] ["Dan" "Eve" "Fred"]["Dan" "Eve" "Fred"]]user=> (totalItems [["Ann"] ["Bob" "Chris"] ["Dan" "Eve" "Fred"]])user=> (totalItems [["Ann"] ["Bob" "Chris"] ["Dan" "Eve" "Fred"]])user=> [K(totalItems [["Ann"] ["Bob" "Chris"] ["Dan" "Eve" "Fred"]])
+6
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 15:43:14-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-02-11 15:43:23-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (def sumSqurs es   ares map  (s  s ( s    #(* % %  )(* % %)([1@([1@+[1@ (* % %))(* % %)))(+ (* % %))))user=> (def sumSquares #(+ (* % %)))user=> [K(def sumSquares #(+ (* % %))))
+#'user/sumSquares
+Syntax error reading source at (REPL:1:31).
+Unmatched delimiter: )
+user=> [Kuser=> [Kuser=> (def sumSquares #(+ (* % %)))) )  )user=> (def sumSquares #(+ (* % %)))user=> [K(def sumSquares #(+ (* % %)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3))  user=> [K(sumSquares '(1 2 3))
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3))res user=> ([8@def sumSquares #(+ (* % %)))[1@\[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@[[1@][][1@n sumSquares [[1P[1P[1@m[1@a[1@p[1@()[1P[1P[1P[1P[1P))[K[1@ )[Kr)e)d)u)c)e)+) )[1P)[1P) )+) )[)])[]][1P)[1P)m)a)p) )s)[1P)*) )%)[1@#[1@(reduce + map * %))(reduce + map * %)) [1@ [1@%  [1@(map % * %)))(map % * %) + (map % * %)))user=> [K(defn sumSquares #(reduce + (map % * %)))
+[KSyntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__10#] (reduce + (map p1__10# * p1__10#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map % * %)))[1P * [1@ %[1@%[1@ user=> [K(defn sumSquares #(reduce + (map  *  % %)))
+Syntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__147#] (reduce + (map * p1__147# p1__147#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map  *  % %))) % %[1P[1Puser=> [K(defn sumSquares #(reduce + (map  *  %)))
+Syntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__149#] (reduce + (map * p1__149#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map  *  %)))[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P))[K[1@()))()[1@*[1@ [1P[1@[[1@][][1@s[1P[1P[1@s[1@e[1@q[1@][seq][1@ (reduce + (* [1@w[1P([1@s[1Puser=> [K(defn sumSquares [seq] (reduce + (* )))[1@s[1@q[1P[1@e[1@q[1@ [1@s[1@e[1@quser=> [K(defn sumSquares [seq] (reduce + (* seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) \ user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)) user=> (defn sumSquares [seq] (reduce + (* seq seq)))                      fn _ + [s  seq[1@(([1P[1P[1P[1P(+ seqqq   (* seq seq)(* seq seq))(+ (* seq seq)))user=> (defn sumSquares [seq] (+ (* seq seq)))user=> [K(defn sumSquares [seq] (+ (* seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> 
+[1]+  Stopped                 clojure
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (totalItems [["Ann"] ["Bob" "Chris"] ["Dan" "Eve" "Fred"]])user=> [K(df   ef sumSuq a  quares [se][se] q][seq] (n fn    (          fn [][]s]e]q]][1@(fn [seq]  (+ (*q  seq seq)(* seq seq))(+ (* seq seq)))user=> (def sumSquares (fn [seq](+ (* seq seq))))user=> (def sumSquares (fn [seq](+ (* seq seq))))user=> [K(def sumSquares (fn [seq](+ (* seq seq))))
+[K#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)) user=> (def sumSquares (fn [seq](+ (* seq seq))))[1P[1P[1@r[1@e[1@d[1@u[1@c[1@euser=> [K(def sumSquares (reduce [seq](+ (* seq seq))))
+Execution error (ClassCastException) at jdk.internal.reflect.NativeMethodAccessorImpl/invoke0 (NativeMethodAccessorImpl.java:-2).
+class clojure.core$seq__5402 cannot be cast to class java.lang.Number (clojure.core$seq__5402 is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (def sumSquares (reduce [seq](+ (* seq seq))))[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P)))[K))[K)[K[1@n sumSquares user=> [K
+[2]+  Stopped                 clojure
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojrue   ue re
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> ( (defn sumSquares [seq][seq] (reduce + (map * [seq][seq]     seq)(map * seq) )s)e)q)))(map * seq seq)))(reduce + (map * seq seq))))user=> (defn sumSquares [seq] (reduce + (map * seq seq)))user=> [K(defn sumSquares [seq] (reduce + (map * seq seq))))
+[K#'user/sumSquares
+Syntax error reading source at (REPL:1:52).
+Unmatched delimiter: )
+user=> [Kuser=> [Kuser=> (defn sumSquares [seq] (reduce + (map * seq seq)))) ) user=> [K(defn sumSquares [seq] (reduce + (map * seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+14
+user=> [Kuser=> [Kuser=> sum   (sumSquares '(1 2 3 4 5)(1 2 3 4 5))user=> [K(sumSquares '(1 2 3 4 5))
+55
+user=> [Kuser=> [Kuser=> (sumSquares [-1 -2 -3 0 1][-1 -2 -3 0 1])user=> (sumSquares [-1 -2 -3 0 1])user=> [K(sumSquares [-1 -2 -3 0 1])
+15
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+There are stopped jobs.
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ ls
+0.script  1a.script  1b.script  1.script  2a.script  2.script  3a.script  3.script  4a.script  4.script
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ cd  cat 4.a
+cat: 4.a: No such file or directory
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ cat 4a.script 
+Script started on 2022-02-11 15:43:23-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (def sumSqurs es   ares map  (s  s ( s    #(* % %  )(* % %)([1@([1@+[1@ (* % %))(* % %)))(+ (* % %))))user=> (def sumSquares #(+ (* % %)))user=> [K(def sumSquares #(+ (* % %))))
+#'user/sumSquares
+Syntax error reading source at (REPL:1:31).
+Unmatched delimiter: )
+user=> [Kuser=> [Kuser=> (def sumSquares #(+ (* % %)))) )  )user=> (def sumSquares #(+ (* % %)))user=> [K(def sumSquares #(+ (* % %)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3))  user=> [K(sumSquares '(1 2 3))
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3))res user=> ([8@def sumSquares #(+ (* % %)))[1@\[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@[[1@][][1@n sumSquares [[1P[1P[1@m[1@a[1@p[1@()[1P[1P[1P[1P[1P))[K[1@ )[Kr)e)d)u)c)e)+) )[1P)[1P) )+) )[)])[]][1P)[1P)m)a)p) )s)[1P)*) )%)[1@#[1@(reduce + map * %))(reduce + map * %)) [1@ [1@%  [1@(map % * %)))(map % * %) + (map % * %)))user=> [K(defn sumSquares #(reduce + (map % * %)))
+[KSyntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__10#] (reduce + (map p1__10# * p1__10#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map % * %)))[1P * [1@ %[1@%[1@ user=> [K(defn sumSquares #(reduce + (map  *  % %)))
+Syntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__147#] (reduce + (map * p1__147# p1__147#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map  *  % %))) % %[1P[1Puser=> [K(defn sumSquares #(reduce + (map  *  %)))
+Syntax error macroexpanding clojure.core/defn at (REPL:1:1).
+fn* - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(fn* [p1__149#] (reduce + (map * p1__149#))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+user=> [Kuser=> [Kuser=> (defn sumSquares #(reduce + (map  *  %)))[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P))[K[1@()))()[1@*[1@ [1P[1@[[1@][][1@s[1P[1P[1@s[1@e[1@q[1@][seq][1@ (reduce + (* [1@w[1P([1@s[1Puser=> [K(defn sumSquares [seq] (reduce + (* )))[1@s[1@q[1P[1@e[1@q[1@ [1@s[1@e[1@quser=> [K(defn sumSquares [seq] (reduce + (* seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) \ user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)) user=> (defn sumSquares [seq] (reduce + (* seq seq)))                      fn _ + [s  seq[1@(([1P[1P[1P[1P(+ seqqq   (* seq seq)(* seq seq))(+ (* seq seq)))user=> (defn sumSquares [seq] (+ (* seq seq)))user=> [K(defn sumSquares [seq] (+ (* seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> 
+[1]+  Stopped                 clojure
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (totalItems [["Ann"] ["Bob" "Chris"] ["Dan" "Eve" "Fred"]])user=> [K(df   ef sumSuq a  quares [se][se] q][seq] (n fn    (          fn [][]s]e]q]][1@(fn [seq]  (+ (*q  seq seq)(* seq seq))(+ (* seq seq)))user=> (def sumSquares (fn [seq](+ (* seq seq))))user=> (def sumSquares (fn [seq](+ (* seq seq))))user=> [K(def sumSquares (fn [seq](+ (* seq seq))))
+[K#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+Execution error (ClassCastException) at user/sumSquares (REPL:1).
+class clojure.lang.PersistentList cannot be cast to class java.lang.Number (clojure.lang.PersistentList is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)) user=> (def sumSquares (fn [seq](+ (* seq seq))))[1P[1P[1@r[1@e[1@d[1@u[1@c[1@euser=> [K(def sumSquares (reduce [seq](+ (* seq seq))))
+Execution error (ClassCastException) at jdk.internal.reflect.NativeMethodAccessorImpl/invoke0 (NativeMethodAccessorImpl.java:-2).
+class clojure.core$seq__5402 cannot be cast to class java.lang.Number (clojure.core$seq__5402 is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+user=> [Kuser=> [Kuser=> (def sumSquares (reduce [seq](+ (* seq seq))))[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P)))[K))[K)[K[1@n sumSquares user=> [K
+[2]+  Stopped                 clojure
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojrue   ue re
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> ( (defn sumSquares [seq][seq] (reduce + (map * [seq][seq]     seq)(map * seq) )s)e)q)))(map * seq seq)))(reduce + (map * seq seq))))user=> (defn sumSquares [seq] (reduce + (map * seq seq)))user=> [K(defn sumSquares [seq] (reduce + (map * seq seq))))
+[K#'user/sumSquares
+Syntax error reading source at (REPL:1:52).
+Unmatched delimiter: )
+user=> [Kuser=> [Kuser=> (defn sumSquares [seq] (reduce + (map * seq seq)))) ) user=> [K(defn sumSquares [seq] (reduce + (map * seq seq)))
+#'user/sumSquares
+user=> [Kuser=> [Kuser=> (sumSquares '(1 2 3)(1 2 3)) user=> [K(sumSquares '(1 2 3)) 
+14
+user=> [Kuser=> [Kuser=> sum   (sumSquares '(1 2 3 4 5)(1 2 3 4 5))user=> [K(sumSquares '(1 2 3 4 5))
+55
+user=> [Kuser=> [Kuser=> (sumSquares [-1 -2 -3 0 1][-1 -2 -3 0 1])user=> (sumSquares [-1 -2 -3 0 1])user=> [K(sumSquares [-1 -2 -3 0 1])
+15Script started on 2022-02-11 16:11:22-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="121" LINES="37"]
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ (defn incMaker [incValue]
+>    #(+ % incValue)
+> )
+
+Command 'defn' not found, did you mean:
+
+  command 'den' from snap den (1.2.0-0)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ ^C
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ (defn incMaker [incValue] #(+ % incValue) )
+> 
+> ^C
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ clojure
+[KClojure 1.10.1
+[Kuser=> [Kuser=> [Kuser=> (defn incMaker [incValue][incValue] #(+ % incValue)(+ % incValue) )user=> (defn incMaker [incValue] #(+ % incValue) )user=> [K(defn incMaker [incValue] #(+ % incValue) )
+[K#'user/incMaker
+user=> [Kuser=> [Kuser=> (def inc5 (incMaker 5)(incMaker 5))user=> (def inc5 (incMaker 5))user=> [K(def inc5 (incMaker 5))
+#'user/inc5
+user=> [Kuser=> [Kuser=> (defn greetingBuilder [greeting][greeting] (fn [visitor][visitor] (str greeting ", " visitor "!")(str greeting ", " visitor "!") )user=> (defn greetingBuilder [greeting] (fn [visitor] (str greeting ", " visitor "!") ) )user=> (defn greetingBuilder [greeting] (fn [visitor] (str greeting ", " visitor "!") ) )user=> [K(defn greetingBuilder [greeting] (fn [visitor] (str greeting ", " visitor "!") ) )
+#'user/greetingBuilder
+user=> [Kuser=> [Kuser=> (def csGreeting (greetingBuilder "Welcome to CS 214")user=> (def csGreeting (greetingBuilder "Welcome to CS 214"))user=> (def csGreeting (greetingBuilder "Welcome to CS 214"))user=> [K[K(def englishGreeting (greetingBuilder "Hello")(def englishGreeting (greetingBuilder "Hello")[K(def csGreeting (greetingBuilder "Welcome to CS 214"))
+[K(def englishGreeting (greetingBuilder "Hello"))(def englishGreeting (greetingBuilder "Hello"))[K[K(def frenchGreeting (greetingBuilder "Bonjour")(def frenchGreeting (greetingBuilder "Bonjour")[K(def englishGreeting (greetingBuilder "Hello"))
+#'user/csGreeting
+user=> #'user/englishGreeting
+[K(def frenchGreeting (greetingBuilder "Bonjour")[Kuser=> [Kuser=> (def frenchGreeting (greetingBuilder "Bonjour"))user=> (def frenchGreeting (greetingBuilder "Bonjour"))user=> [K(def frenchGreeting (greetingBuilder "Bonjour"))
+#'user/frenchGreeting
+user=> [Kuser=> [Kuser=> (csGreeting "Ann")user=> (csGreeting "Ann")user=> [K[K(englishGreeting "Chris")(englishGreeting "Chris")[K(csGreeting "Ann")
+[K(englishGreeting "Chris")[K[K(frenchGreeting "Chris")(frenchGreeting "Chris")[K"Welcome to CS 214, Ann!"
+user=> (englishGreeting "Chris")
+[K(frenchGreeting "Chris")[K"Hello, Chris!"
+user=> [Kuser=> (frenchGreeting "Chris")user=> [K(frenchGreeting "Chris")
+"Bonjour, Chris!"
+user=> [Kuser=> [Kuser=> 
+[K]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ cat 0.script 1.script 1a.script 1b.script 2.script 2a.script 3.script 3a.script 4.script 4a.sccript 5.script > lab05-results
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ [Kcp lab05-results /home/cs/214/current/yourUserName            hs59
+]0;hs59@gold12: ~/cs214/lab/05[01;32mhs59@gold12[00m:[01;34m~/cs214/lab/05[00m$ exit
+
+Script done on 2022-02-11 16:13:05-05:00 [COMMAND_EXIT_CODE="0"]
