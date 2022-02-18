@@ -1,2 +1,4 @@
 At the line 693 in the example1, I can see that it's looping that has 2 layered array, x[y[z]] and also it is interesting that it is using int type for yy_def. In the line 741 - 770, it shows the termination part of the program.
 In the example2, when the input is number it printes the NUMBER, and when the input is a character it prints WORD. When it is number then word it prints both NUMBER and WORD but when it is word then number it only prints WORD. When is underscore, it just prints as mirror to the next line, it replicates it right in front of number and words are added. 
+In the example4, the differentiates a terminal from a non-terminal is | and {}.
+I do not see anything strange in example4.
